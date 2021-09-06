@@ -38,7 +38,7 @@ body{
 }
 
 .nav-links li a:hover{
-    color:#F9A826;
+    color:#EB9B3F;
     font-weight: 800;
 }
 
@@ -53,7 +53,7 @@ body{
     /* max-width: 1080px; */
     margin:auto;
     background-color: #0099ff;
-    height: 500px;
+    height: 700px;
 }
 
 #home .col{
@@ -63,7 +63,7 @@ body{
 }
 
 #home p{
-    margin-top: 70px;
+    margin-top: 100px;
     font-size: 1.5rem;
     color: #FFF;
     text-align: left;
@@ -72,7 +72,7 @@ body{
 
 #home h1{
     font-size: 4.5rem;
-    color: #F9A826;
+    color: #87D42F;
     font-family: 'Anton', sans-serif;
     text-align: left;
 }
@@ -85,12 +85,17 @@ body{
 }
 
 .wave{
-    margin-top:-240px;
+    margin-top:-340px;
 }
 
 .section-title{
     text-align: center;
     font-size: 3rem;
+    font-weight: bold;
+}
+
+#about-us{
+    background-color: #FFF;
 }
 
 #about-us p{
@@ -98,10 +103,32 @@ body{
     width: 40%;
     margin: auto;
     padding: 30px 0px;
+    font-size: 20px;
 }
+
 #service{
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
     display: block;
-    margin-top: 20px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+#service .col{
+    float: left;
+    width: 33.333333333%;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 40px 0px;
+}
+
+#service h3{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+.service-icon{
+    color: #87D42F;
 }
 
 .parallax {
@@ -114,13 +141,10 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    clear: both;
 }
 
-#about-us{
-    display: block;
 
-    background-color: #FFF;
-}
 
 #contact{
     background-color: #FFF;
@@ -134,7 +158,7 @@ body{
 }
 
 .input{
-    border: 2px solid #F9A826;
+    border: 2px solid #EB9B3F;
     border-radius: 10px;
     width: 100%;
     padding: 10px 20px;
@@ -148,7 +172,7 @@ body{
 .btn{
     border-radius: 15px;
     padding: 10px 20px;
-    background-color: #F9A826;
+    background-color: #EB9B3F;
     color: #FFF;
     border-color: #f59a07;
 }
